@@ -1,0 +1,36 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets e ambiente local (nunca commitar)
+.env
+.env.*
+!.env.example
+
+# Dados locais / RAG / agentes (gerados em runtime)
+tmp/
+*.db
+
+# PDFs de relatórios (RAG) — ficam só na sua máquina
+files/**/*.pdf
+
+# Ferramentas / testes
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# SO / IDE (opcional)
+.DS_Store
+Thumbs.db
